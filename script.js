@@ -21,3 +21,8 @@ if (isValid) {
   resultsDiv.textContent = `Invalid US number: ${userInput}`;
 }
 });
+
+document.getElementById('clear-btn').addEventListener('click', function() {
+  document.getElementById('results-div').textContent = '';
+  document.getElementById('user-input').value = '';
+});
