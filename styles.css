@@ -101,3 +101,34 @@ button {
   margin-top: 20px;
   font-size: 1.2em;
 }
+
+@media (max-width: 600px) {
+  .container {
+      flex-direction: column;
+      width: 90%;
+      padding: 10px;
+  }
+
+  .header {
+      text-align: center;
+      padding: 10px;
+  }
+
+  .form-container {
+      padding: 15px;
+      margin-top: 20px;
+  }
+
+  .button-group {
+      flex-direction: column;
+  }
+
+  button {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+
+  button:last-child {
+      margin-bottom: 0;
+  }
+}
